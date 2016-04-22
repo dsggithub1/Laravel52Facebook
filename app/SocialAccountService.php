@@ -33,8 +33,8 @@ class SocialAccountService
                 ]);
             }
 
-            $account->user()->associate($user);
-            $account->save();
+           /* $account->user()->associate($user);
+            $account->save();*/
 
             return $user;
 
